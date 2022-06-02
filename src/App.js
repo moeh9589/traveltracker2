@@ -9,11 +9,7 @@ function App() {
         <div className='USAdiv'>
           <USMap />
         </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+
 
       </header>
     </div>
