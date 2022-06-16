@@ -85,9 +85,9 @@ class App extends Component {
             <h1>USA</h1>
             <div className="colorpicker">
                 <h5>Select a Color</h5>
-                <button className="base_button button1"  onClick={()=>this.pickingColor='#ff4d4d'}></button> {/*  red   */}
-                <button className="base_button button2"  onClick={()=>this.pickingColor='#57de6d'}></button> {/* green  */}
-                <button className="base_button button3"  onClick={()=>this.pickingColor='#fdfd7d'}></button> {/* yellow */}
+                <button className="base_button button1"  onClick={()=>this.pickingColor='#ff4d4d'}>UNVISITED</button> {/*  red   */}
+                <button className="base_button button2"  onClick={()=>this.pickingColor='#57de6d'}>VISITED</button> {/* green  */}
+                <button className="base_button button3"  onClick={()=>this.pickingColor='#fdfd7d'}>PARTIALLY VISITED</button> {/* yellow */}
             </div>                
             <USAMap customize={this.statesFilling()} onClick={this.handleState} />
         </div>
